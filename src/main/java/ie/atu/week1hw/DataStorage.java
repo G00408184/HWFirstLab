@@ -24,4 +24,10 @@ public class DataStorage {
     public void setSumoperator(String sumoperator) {
         this.sumoperator = sumoperator;
     }
+    @Override
+    public String toString() {
+        return "Result: " + result + ", Operator: " + sumoperator;
+    }
+
+
 }
