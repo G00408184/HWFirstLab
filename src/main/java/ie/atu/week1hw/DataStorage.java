@@ -8,4 +8,20 @@ public class DataStorage {
         this.result = result;
         this.sumoperator = sumoperator;
     }
+
+    public float getResult() {
+        return result;
+    }
+
+    public void setResult(float result) {
+        this.result = result;
+    }
+
+    public String getSumoperator() {
+        return sumoperator;
+    }
+
+    public void setSumoperator(String sumoperator) {
+        this.sumoperator = sumoperator;
+    }
 }
