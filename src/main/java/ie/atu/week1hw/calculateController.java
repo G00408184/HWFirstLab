@@ -14,10 +14,10 @@ public class calculateController {
                              @RequestParam("num2") int num2)
     {
     switch (sumoperator){
-        case "add":;
-        case "subtrat":;
-        case "multiply":;
-        case "divide":;
+        case "add": new calculateController(num1+num2,sumoperator);
+        case "subtrat":new calculateController(num1-num2,sumoperator);
+        case "multiply":new calculateController(num1*num2,sumoperator);
+        case "divide":new calculateController(num1/num2,sumoperator);
 
     }
 
