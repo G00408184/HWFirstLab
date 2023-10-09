@@ -1,19 +1,19 @@
 package ie.atu.week1hw;
 
 public class DataStorage {
-    private float result;
+    private double  result;
     private String sumoperator;
 
-    public DataStorage(float result, String sumoperator) {
+    public DataStorage(double result, String sumoperator) {
         this.result = result;
         this.sumoperator = sumoperator;
     }
 
-    public float getResult() {
+    public double  getResult() {
         return result;
     }
 
-    public void setResult(float result) {
+    public void setResult(double  result) {
         this.result = result;
     }
 
