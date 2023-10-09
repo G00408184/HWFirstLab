@@ -8,14 +8,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class calculateController {
     private float result;
+    private String sumoperator;
     @GetMapping("/calculate")
-    public String calculate( @RequestParam("num1") int num1,
+    public String calculation( @RequestParam("num1") int num1,
                              @RequestParam("num2") int num2)
     {
+    switch (sumoperator){
+        case "add":;
+        case "subtrat":;
+        case "multiply":;
+        case "divide":;
+
+    }
 
 
 
-            //return result;
+           // return;
         }
 
     }
